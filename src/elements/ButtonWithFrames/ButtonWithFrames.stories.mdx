@@ -1,0 +1,23 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import ButtonWithFrames from './ButtonWithFrames';
+
+import ButtonWithFramesDescription from './ButtonWithFrames.description.md';
+
+<Meta
+  title="ButtonWithFrames"
+  component={ButtonWithFrames}
+  argTypes={{ }}
+/>
+
+<ButtonWithFramesDescription />
+
+<Canvas>
+  <Story name="ButtonWithFrames" height="400px">
+    {(args) => <ButtonWithFrames {...args} />}
+  </Story>
+</Canvas>
+
+## ArgsTable
+
+<ArgsTable of={ButtonWithFrames} />

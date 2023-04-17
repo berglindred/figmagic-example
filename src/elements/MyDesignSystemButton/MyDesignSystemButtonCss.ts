@@ -10,7 +10,7 @@ import fontWeights from '../../../tokens/fontWeights';
 import lineHeights from '../../../tokens/lineHeights';
 import letterSpacings from '../../../tokens/letterSpacings';
 
-const ButtonCss = `
+const MyDesignSystemButtonCss = `
   width: 100%;
   box-sizing: border-box;
   border: 0;
@@ -63,4 +63,4 @@ const ButtonCss = `
 
 `;
 
-export default ButtonCss;
+export default MyDesignSystemButtonCss;

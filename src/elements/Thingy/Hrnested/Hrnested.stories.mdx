@@ -1,0 +1,23 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import Hrnested from './Hrnested';
+
+import HrnestedDescription from './Hrnested.description.md';
+
+<Meta
+  title="Hrnested"
+  component={Hrnested}
+  argTypes={{ }}
+/>
+
+<HrnestedDescription />
+
+<Canvas>
+  <Story name="Hrnested" height="400px">
+    {(args) => <Hrnested {...args} />}
+  </Story>
+</Canvas>
+
+## ArgsTable
+
+<ArgsTable of={Hrnested} />

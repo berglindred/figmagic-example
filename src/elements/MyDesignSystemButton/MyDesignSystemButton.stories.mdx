@@ -1,0 +1,23 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import MyDesignSystemButton from './MyDesignSystemButton';
+
+import MyDesignSystemButtonDescription from './MyDesignSystemButton.description.md';
+
+<Meta
+  title="MyDesignSystemButton"
+  component={MyDesignSystemButton}
+  argTypes={{ }}
+/>
+
+<MyDesignSystemButtonDescription />
+
+<Canvas>
+  <Story name="MyDesignSystemButton" height="400px">
+    {(args) => <MyDesignSystemButton {...args} />}
+  </Story>
+</Canvas>
+
+## ArgsTable
+
+<ArgsTable of={MyDesignSystemButton} />
